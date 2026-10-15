@@ -34,3 +34,5 @@ class CheckResult:
     # This is used later by the scorer to decide how many points to
     # take off the readiness score.
     severity: str
+
+#lasjdnsaifanosd
