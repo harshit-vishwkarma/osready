@@ -14,6 +14,7 @@ We use a @dataclass here instead of a plain class because a dataclass
 auto-generates the boring stuff (the __init__ method, a nice __repr__
 for printing) so we only have to list the fields we care about.
 """
+#This is a dataclass that represents the result of a check performed by the OSReady tool. It contains information about the check's name, whether it passed or failed, a message explaining the result, and the severity of the failure if applicable.  
 
 from dataclasses import dataclass
 
